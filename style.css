@@ -148,6 +148,9 @@ body {
     margin-bottom: 50px;
  
   }
+  .tg{
+    max-width: 150px;
+  }
 
 
   @media (max-width : 2000px ) {
