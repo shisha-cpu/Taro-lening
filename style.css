@@ -2,12 +2,14 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     color: #fff;
     display: flex;
     height: 100vh;
   }
-  
+  a{
+    text-decoration: none;
+  }
   .container {
     text-align: center;
     width: 100svw;
@@ -39,6 +41,10 @@ body {
     line-height: 1.5;
   }
   
+  .content{
+    margin: 10px;
+
+  }
   /* Кнопки */
   .buttons {
     display: flex;
@@ -75,8 +81,9 @@ body {
   
   .main{
     background-color: white;
-    padding:  10px ;
+    padding: 10px;
     border-radius: 20px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
   }
 
   /*  */
@@ -98,6 +105,9 @@ body {
     background-color: white;
     border:  1px solid blue ;
     border-radius: 20px;
+    color: rgb(59,130,246);
+  }
+  .footer-btn a {
     color: rgb(59,130,246);
   }
 
