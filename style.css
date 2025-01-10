@@ -1,0 +1,185 @@
+/* Общие настройки */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100svw;
+    height: 100svh;
+
+    background: linear-gradient(to bottom, #58aef7, #b68efc);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Телефон */
+  .phone img {
+    max-width: 300px;
+    margin-bottom: -20px;
+  }
+  
+  /* Контент */
+  .content h1 {
+    font-size: 32px;
+    color: #3b68ff;
+    margin: 10px 0;
+  }
+  
+  .content p {
+    font-size: 18px;
+    color: #3b68ff;
+    margin: 10px 0 20px;
+    line-height: 1.5;
+  }
+  
+  /* Кнопки */
+  .buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .button {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+  }
+  
+  .button.blue {
+    background-color: #3b68ff;
+    color: #fff;
+  }
+  
+  .button.blue:hover {
+    background-color: #2550cc;
+  }
+  
+  .button.purple {
+    background-color: #a257ff;
+    color: #fff;
+  }
+  
+  .button.purple:hover {
+    background-color: #7a3cb8;
+  }
+  
+  .main{
+    background-color: white;
+    padding:  10px ;
+    border-radius: 20px;
+  }
+
+  /*  */
+  .footer{
+    width: 100svw;
+    height: 60svh;
+    margin-top: -21px;
+    background-color: rgb(59,130,246);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-content{
+    text-align: center;
+    max-width: 500px;
+  }
+  .footer-btn{
+    padding: 10px 40px ;
+    background-color: white;
+    border:  1px solid blue ;
+    border-radius: 20px;
+    color: rgb(59,130,246);
+  }
+
+  /*  */
+  .middle{
+    width: 100svw;
+    height: 100svh;
+    background-color: white !important;
+  }
+  .middle-content{
+    display: flex;
+    max-width: 700px;
+    margin:  0 auto;
+    padding: 10px;
+   
+  }
+
+  .item-title{
+    color: rgb(59,130,246);
+    font-size: 20px;
+    font-weight: 660;
+  }
+  .item-txt{
+    color: #a257ff;
+    font-weight: 560;
+    min-width: 100px;
+
+
+  }
+  .middle-title{
+    text-align: center;
+    color: rgb(59,130,246);
+    font-size: 30px;
+    font-weight: 660;
+    margin-bottom: 50px;
+ 
+  }
+
+
+  @media (max-width : 2000px ) {
+    .sec img{
+        height: 500px;
+      }
+      .item2{
+        margin-top: 320px;
+      }
+      .thir{
+        margin-top: 170px;
+      }
+  }
+
+  @media (max-width : 510px) {
+    .sec img{
+        height: 500px;
+      }
+      .item2{
+        margin-top: 300px;
+      }
+      .thir{
+        margin-top: 150px;
+      }
+  }
+  @media (max-width : 460px) {
+    .sec img{
+        height: 500px;
+      }
+      .item2{
+        margin-top: 200px;
+      }
+      .thir{
+        margin-top: 150px;
+      }
+  }
+  
+  @media (max-width : 360px) {
+    .sec img{
+        height: 500px;
+      }
+      .item2{
+        margin-top: 100px;
+      }
+      .thir{
+        margin-top: 150px;
+      }
+  }
