@@ -14,7 +14,7 @@ body {
     text-align: center;
     width: 100svw;
     height: 100svh;
-
+    padding-bottom: 20px;
     background: linear-gradient(to bottom, #58aef7, #b68efc);
     display: flex;
     flex-direction: column;
@@ -87,6 +87,7 @@ body {
     padding: 10px;
     border-radius: 20px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+
   }
 
   /*  */
@@ -117,7 +118,7 @@ body {
   /*  */
   .middle{
     width: 100svw;
-    height: 100svh;
+    height: 110svh;
     background-color: white !important;
   }
   .middle-content{
@@ -164,7 +165,16 @@ body {
         margin-top: 170px;
       }
   }
-
+  @media (max-width : 1300px) {
+    .container{
+      height: 120svh;
+    }
+  }
+  @media (max-width : 1100px) {
+    .container{
+      height: 140svh;
+    }
+  }
   @media (max-width : 510px) {
     .sec img{
         height: 500px;
@@ -186,6 +196,12 @@ body {
       .thir{
         margin-top: 150px;
       }
+      .container{
+        height: 115svh;
+      }
+      .phone img{
+        max-width: 200px;
+      }
   }
   
   @media (max-width : 360px) {
@@ -199,23 +215,18 @@ body {
         margin-top: 150px;
       }
   }
-  @media (orientation: landscape) {
+  @media (orientation: landscape) and (max-height: 500px) { 
     .phone img {
       max-width: 150px;
       margin-bottom: -20px;
     }
-    .middle{
+    .middle {
       height: 200svh;
-
     }
-    .footer{
-
+    .footer {
       height: 100svh;
-
     }
     .container {
-
       height: 150svh;
-
     }
-  }
+}
